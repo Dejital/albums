@@ -1,11 +1,10 @@
 <style>
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   font-size: 1.2em;
   line-height: 1.8;
   color: #FFFFFF;
-  border: 10px solid #80AFC1;
+  border: 1.8em solid #80AFC1;
   display: block;
   margin: 0;
   padding: 1.2em;
@@ -17,30 +16,29 @@ a {
 a:hover {
   color: #FFE6BE;
 }
+li {
+  list-style-type: square;
+}
 </style>
 <script src="jquery-3.1.1.min.js"></script>
 <title>Serge Nevsky's Favorite Albums</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <h1>Favorite Albums</h1>
-<p>This is a list of my favorite albums.</p>
-<ul>The list is empty.</ul>
-<footer><a href="http://snevsky.com">Serge Nevsky</a></footer>
+<p><a href="http://snevsky.com">Serge Nevsky</a>: This is a list of my favorite albums.</p>
+<ul>Loading...</ul>
+<footer><a href="https://github.com/Dejital/albums">Fork me on Github</a></footer>
 <script type="text/javascript">
-var albums = [];
-function album(title, artist, year) {
-  this.title = title;
-  this.artist = artist;
-  this.year = year;
-}
-//sample data
-albums.push(new album('Sea Change', 'Beck', '2002'));
-albums.push(new album('Parachutes', 'Coldplay', '2000'));
-albums.push(new album('Yoshimi Battles the Pink Robots', 'Flaming Lips', '2002'));
-albums.push(new album('The Good, The Bad & The Queen', 'The Good, The Bad & The Queen', '2007'));
-albums.push(new album('Gorillaz', 'Gorillaz', '2001'));
-albums.push(new album('Curtains', 'John Frusciante', '2004'));
-var htmlToInsert = '';
-$.each(albums, function (count, album) {
-  htmlToInsert += '<li>' + album.artist + ' - ' + album.title + ' (' + album.year + ')</li>';
+( function( $ ) {
+
+$.getJSON( 'data.json', function( albums ) {
+  if (albums !== undefined) {
+    var htmlToInsert = '';
+    $.each(albums, function (count, album) {
+      htmlToInsert += '<li>' + album.artist + ' - ' + album.title + ' (' + album.year + ')</li>';
+    });
+    $('ul').html(htmlToInsert);
+  }
 });
-$('ul').html(htmlToInsert);
+
+} )( jQuery );
 </script>

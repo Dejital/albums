@@ -1,0 +1,434 @@
+[
+    {
+        "title": "Sea Change",
+        "artist": "Beck",
+        "year": 2002,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Viva La Vida or Death And All His Friends",
+        "artist": "Coldplay",
+        "year": 2008,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Yoshimi Battles The Pink Robots",
+        "artist": "The Flaming Lips",
+        "year": 2002,
+        "genre": "Alternative"
+    },
+    {
+        "title": "The Good, The Bad & The Queen",
+        "artist": "The Good, The Bad & The Queen",
+        "year": 2007,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Gorillaz",
+        "artist": "Gorillaz",
+        "year": 2001,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Curtains",
+        "artist": "John Frusciante",
+        "year": 2004,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Shadows Collide With People",
+        "artist": "John Frusciante",
+        "year": 2004,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Origin of Symmetry",
+        "artist": "Muse",
+        "year": 2001,
+        "genre": "Alternative"
+    },
+    {
+        "title": "In Rainbows",
+        "artist": "Radiohead",
+        "year": 2007,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Mother's Milk",
+        "artist": "Red Hot Chili Peppers",
+        "year": 1989,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "year": 1999,
+        "genre": "Alternative"
+    },
+    {
+        "title": "By The Way",
+        "artist": "Red Hot Chili Peppers",
+        "year": 2002,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Room on Fire",
+        "artist": "The Strokes",
+        "year": 2003,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Yankee Hotel Foxtrot",
+        "artist": "Wilco",
+        "year": 2002,
+        "genre": "Alternative"
+    },
+    {
+        "title": "Low",
+        "artist": "David Bowie",
+        "year": 1977,
+        "genre": "Classic Rock"
+    },
+    {
+        "title": "Surrealistic Pillow",
+        "artist": "Jefferson Airplay",
+        "year": 1967,
+        "genre": "Classic Rock"
+    },
+    {
+        "title": "Led Zeppelin IV",
+        "artist": "Led Zeppelin",
+        "year": 1971,
+        "genre": "Classic Rock"
+    },
+    {
+        "title": "5 Song EP",
+        "artist": "Fire On Fire",
+        "year": 2007,
+        "genre": "Folk"
+    },
+    {
+        "title": "Acid Rap",
+        "artist": "Chance the Rapper",
+        "year": 2013,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "Be",
+        "artist": "Common",
+        "year": 2005,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "channel ORANGE",
+        "artist": "Frank Ocean",
+        "year": 2012,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "Yeezus",
+        "artist": "Kanye West",
+        "year": 2013,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "808s & Heartbreak",
+        "artist": "Kanye West",
+        "year": 2008,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "good kid, m.A.A.d city",
+        "artist": "Kendrick Lamar",
+        "year": 2012,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "Funeral",
+        "artist": "Arcade Fire",
+        "year": 2004,
+        "genre": "Indie"
+    },
+    {
+        "title": "Into the Flood",
+        "artist": "As Tall As Lions",
+        "year": 2007,
+        "genre": "Indie"
+    },
+    {
+        "title": "If You're Feeling Sinister",
+        "artist": "Belle & Sebastian",
+        "year": 1996,
+        "genre": "Indie"
+    },
+    {
+        "title": "Bluffer's Guide To The Galaxy",
+        "artist": "Flotation Toy Warning",
+        "year": 2005,
+        "genre": "Indie"
+    },
+    {
+        "title": "The Golden River",
+        "artist": "Frog Eyes",
+        "year": 2006,
+        "genre": "Indie"
+    },
+    {
+        "title": "Exile in Guyville",
+        "artist": "Liz Phair",
+        "year": 1993,
+        "genre": "Indie"
+    },
+    {
+        "title": "In the Aeroplane Over the Sea",
+        "artist": "Neutral Milk Hotel",
+        "year": 1998,
+        "genre": "Indie"
+    },
+    {
+        "title": "Give Up",
+        "artist": "The Postal Service",
+        "year": 2003,
+        "genre": "Indie"
+    },
+    {
+        "title": "The Queen Is Dead",
+        "artist": "The Smiths",
+        "year": 1986,
+        "genre": "Indie"
+    },
+    {
+        "title": "So Jealous",
+        "artist": "Tegan & Sara",
+        "year": 2004,
+        "genre": "Indie"
+    },
+    {
+        "title": "Moanin'",
+        "artist": "Art Blakey & The Jazz Messengers",
+        "year": 1958,
+        "genre": "Jazz"
+    },
+    {
+        "title": "Cantaloupe Island",
+        "artist": "Herbie Hancock",
+        "year": 1994,
+        "genre": "Jazz"
+    },
+    {
+        "title": "Blue Train",
+        "artist": "John Coltrane",
+        "year": 1957,
+        "genre": "Jazz"
+    },
+    {
+        "title": "Kind of Blue",
+        "artist": "Miles Davis",
+        "year": 1959,
+        "genre": "Jazz"
+    },
+    {
+        "title": "Paint the Sky With Stars",
+        "artist": "Enya",
+        "year": 1997,
+        "genre": "New Age"
+    },
+    {
+        "title": "Pet Sounds",
+        "artist": "The Beach Boys",
+        "year": 1966,
+        "genre": "Pop"
+    },
+    {
+        "title": "The Idler Wheel Is Wiser Than The Driver Of The Screw & Whipping Cords Will Serve You More Than Ropes Will Ever Do",
+        "artist": "Fiona Apple",
+        "year": 2012,
+        "genre": "Pop"
+    },
+    {
+        "title": "Born to Die",
+        "artist": "Lana Del Rey",
+        "year": 2012,
+        "genre": "Pop"
+    },
+    {
+        "title": "Graceland",
+        "artist": "Paul Simon",
+        "year": 1986,
+        "genre": "Pop"
+    },
+    {
+        "title": "In the Court of the Crimson King",
+        "artist": "King Crimson",
+        "year": 1969,
+        "genre": "Progressive Rock"
+    },
+    {
+        "title": "Animals",
+        "artist": "Pink Floyd",
+        "year": 1977,
+        "genre": "Progressive Rock"
+    },
+    {
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "year": 1973,
+        "genre": "Progressive Rock"
+    },
+    {
+        "title": "The Ramones",
+        "artist": "The Ramones",
+        "year": 1976,
+        "genre": "Punk"
+    },
+    {
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "The Beatles",
+        "year": 1967,
+        "genre": "Rock"
+    },
+    {
+        "title": "Born To Run",
+        "artist": "Bruce Springstein",
+        "year": 1975,
+        "genre": "Rock"
+    },
+    {
+        "title": "Tunnel of Love",
+        "artist": "Bruce Springstein",
+        "year": 1987,
+        "genre": "Rock"
+    },
+    {
+        "title": "Hot Rats",
+        "artist": "Frank Zappa",
+        "year": 1969,
+        "genre": "Rock"
+    },
+    {
+        "title": "After the Gold Rush",
+        "artist": "Neil Young",
+        "year": 1970,
+        "genre": "Rock"
+    },
+    {
+        "title": "Synchronicity",
+        "artist": "The Police",
+        "year": 1983,
+        "genre": "Rock"
+    },
+    {
+        "title": "Remain in Light",
+        "artist": "Talking Heads",
+        "year": 1980,
+        "genre": "Rock"
+    },
+    {
+        "title": "The Velvet Underground",
+        "artist": "The Velvet Underground",
+        "year": 1967,
+        "genre": "Rock"
+    },
+    {
+        "title": "The Velvet Underground & Nico",
+        "artist": "The Velvet Underground & Nico",
+        "year": 1967,
+        "genre": "Rock"
+    },
+    {
+        "title": "I Never Loved A Man The Way I Love You",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "genre": "Soul"
+    },
+    {
+        "title": "Dusty in Memphis",
+        "artist": "Dusty Springfield",
+        "year": 1968,
+        "genre": "Soul"
+    },
+    {
+        "title": "What's Going On",
+        "artist": "Marvin Gaye",
+        "year": 1971,
+        "genre": "Soul"
+    },
+    {
+        "title": "The Dock of the Bay",
+        "artist": "Otis Redding",
+        "year": 1968,
+        "genre": "Soul"
+    },
+    {
+        "title": "Ain't That Good News",
+        "artist": "Sam Cooke",
+        "year": 1964,
+        "genre": "Soul"
+    },
+    {
+        "title": "Ready To Die",
+        "artist": "The Notorious B.I.G.",
+        "year": 1994,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "Carrie & Lowell",
+        "artist": "Sufjan Stevens",
+        "year": 2015,
+        "genre": "Indie"
+    },
+    {
+        "title": "Getz/Gilberto",
+        "artist": "Stan Getz & João Gilberto",
+        "year": 1963,
+        "genre": "Jazz"
+    },
+    {
+        "title": "I Put A Spell On You",
+        "artist": "Nina Simone",
+        "year": 1965,
+        "genre": "Soul"
+    },
+    {
+        "title": "Pastel Blues",
+        "artist": "Nina Simone",
+        "year": 1965,
+        "genre": "Soul"
+    },
+    {
+        "title": "Masters of the Universe",
+        "artist": "Binary Star",
+        "year": 2001,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "Section 80",
+        "artist": "Kendrick Lamar",
+        "year": 2011,
+        "genre": "Hip-Hop"
+    },
+    {
+        "title": "Call Me",
+        "artist": "Al Green",
+        "year": 1973,
+        "genre": "Soul"
+    },
+    {
+        "title": "Knee-Deep In The North Sea",
+        "artist": "Portico Quartet",
+        "year": 2007,
+        "genre": "Jazz"
+    },
+    {
+        "title": "Amok",
+        "artist": "Atoms For Peace",
+        "year": 2013,
+        "genre": "Electronic"
+    },
+    {
+        "title": "Ambient 1: Music for Airports",
+        "artist": "Brian Eno",
+        "year": 1978,
+        "genre": "Electronic"
+    }
+]
