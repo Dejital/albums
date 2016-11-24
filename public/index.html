@@ -1,44 +1,52 @@
 <style>
 body {
-  font-family: sans-serif;
-  font-size: 1.2em;
-  line-height: 1.8;
-  color: #FFFFFF;
-  border: 1.8em solid #80AFC1;
-  display: block;
-  margin: 0;
-  padding: 1.2em;
-  background: #005F87;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #FFFFFF;
+    border: 1.8em solid #80AFC1;
+    display: block;
+    margin: 0;
+    padding: 1.2em;
+    background: #005F87;
 }
-a {
-  color: #FABE50;
-}
-a:hover {
-  color: #FFE6BE;
-}
-li {
-  list-style-type: square;
+a { color: #FABE50; }
+a:hover { color: #FFE6BE; }
+li { list-style-type: square; }
+.grid-item {
+    height: 12em;
+    width: 12em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 </style>
 <script src="jquery-3.1.1.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <title>Serge Nevsky's Favorite Albums</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <h1>Favorite Albums</h1>
 <p><a href="http://snevsky.com">Serge Nevsky</a>: This is a list of my favorite albums.</p>
-<ul>Loading...</ul>
+<div class="grid">Loading...</div>
 <footer><a href="https://github.com/Dejital/albums">Fork me on Github</a></footer>
 <script type="text/javascript">
-( function( $ ) {
+(function ($) {
 
-$.getJSON( 'data.json', function( albums ) {
-  if (albums !== undefined) {
-    var htmlToInsert = '';
-    $.each(albums, function (count, album) {
-      htmlToInsert += '<li>' + album.artist + ' - ' + album.title + ' (' + album.year + ')</li>';
-    });
-    $('ul').html(htmlToInsert);
-  }
+$.getJSON('data.json', function (albums) {
+    if (albums !== undefined) {
+        var htmlToInsert = '';
+        $.each(albums, function (count, album) {
+            htmlToInsert += '<div class="grid-item">';
+            htmlToInsert += album.artist + '<br>' + album.title + '<br>' + album.year;
+            htmlToInsert += '</div>';
+        });
+        var grid = $('.grid');
+        grid.html(htmlToInsert);
+        grid.masonry({
+            itemSelector: '.grid-item'
+        });
+    }
+
 });
 
-} )( jQuery );
+})(jQuery);
 </script>
